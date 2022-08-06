@@ -3,7 +3,8 @@ import Head from 'next/head';
 import React from 'react';
 import Menu from '../../components/Menu';
 import Link from 'next/link';
-import bannerEmpy from '../../public/images/banner-empy.png';
+import bannerExplorandoEmociones from '../../public/images/banner-explorando-emociones.png';
+
 import solucion1 from '../../public/images/resultados-explorando/resultados1.png';
 import solucion2 from '../../public/images/resultados-explorando/resultados2.png';
 
@@ -53,7 +54,7 @@ const index = () => {
 					</div>
 				</div>
 				<Image
-					src={bannerEmpy}
+					src={bannerExplorandoEmociones}
 					className="w-full mt-14"
 					quality={100}
 					priority={true}
@@ -147,7 +148,7 @@ const index = () => {
 					</div>
 				</div>
 				<div className="container mx-auto px-8 text-oscuro font-medium font-sofiaPro text-base ">
-					<div className="grid grid-cols-12 gap-x-6">
+					{/* <div className="grid grid-cols-12 gap-x-6">
 						<div className="col-start-1 md:col-start-2 col-span-12 md:col-span-10 mt-20 flex flex-col px-0 md:px-40">
 							<h1 className="font-extrabold mb-11 text-center text-4xl">
 								Ideación
@@ -160,7 +161,7 @@ const index = () => {
 								realizar nuestros primeros bocetos.
 							</p>
 						</div>
-					</div>
+					</div> */}
 					<div className="grid grid-cols-12 gap-x-6">
 						<div className="col-start-1 md:col-start-2 col-span-12 md:col-span-10 mt-20 flex flex-col px-0 md:px-40">
 							<div className="flex justify-center items-center flex-col">

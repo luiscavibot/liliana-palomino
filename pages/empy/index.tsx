@@ -200,8 +200,6 @@ const index = () => {
 							<h1 className="font-extrabold mb-11 text-center text-4xl">
 								Solución
 							</h1>
-							Finalmente realicé el sistema de diseño de la
-							plataforma y el prototipo en alta fidelidad.
 							<p className="mb-2">
 								<span className="font-bold">
 									Realicé el diseño de un prototipo en baja
@@ -213,17 +211,11 @@ const index = () => {
 								que era necesario reducir el proceso de
 								onboarding y también obtuvimos comentarios
 								positivos de usuarios que sentían mayor
-								confianza en agendar una cita. Finalmente
+								confianza en agendar una cita. Finalmente,&nbsp;
 								<span className="font-bold">
-									Realicé el diseño de un prototipo en baja
-									fidelidad con las interacciones necesarias
-									para realizar pruebas de usuario.
+									realicé el sistema de diseño de la
+									plataforma y el prototipo en alta fidelidad.
 								</span>
-							</p>
-							<p>
-								Finalmente se realizó el diseño en alta
-								fidelidad con las funcionalidades del que sería
-								nuestro producto mínimo viable.
 							</p>
 							<div className="flex justify-center items-center flex-col">
 								<Image src={solucion1} className="mt-20" />
