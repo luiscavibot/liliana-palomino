@@ -12,18 +12,16 @@ const Home: NextPage = () => {
 			</Head>
 
 			<main
-				className="container mx-auto px-8 text-oscuro font-medium font-sofiaPro text-base"
+				className="container mx-auto px-8 text-oscuro font-medium font-sofiaPro text-base mb-24"
 				style={{ letterSpacing: '0.5px', lineHeight: '1.8' }}>
 				<div className="grid grid-cols-12 gap-x-6">
 					<Menu />
 					<div className="col-span-12 justify-center items-center mt-20">
-						<p className="text-center w-1/2 mx-auto">
-							I am an Audiovisual Communicator,{' '}
-							<span className="font-bold">
-								passionate about creating digital products
-							</span>
-							. I have more than 4 years working in web pages and
-							applications design. Thank for look my work!
+						<p className="text-center w-full md:w-1/2 mx-auto">
+							¡Hola! Soy{' '}
+							<span className="font-bold">Product Designer</span>,
+							disfruto de cada etapa de la creación de productos
+							digitales y aprender del equipo que me acompaña.
 						</p>
 					</div>
 					<HomeProjects />

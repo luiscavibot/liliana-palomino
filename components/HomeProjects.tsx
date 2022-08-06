@@ -1,5 +1,7 @@
 import React from 'react';
 import explorandoEmociones from '../public/images/explorando-emociones.png';
+import proyectoFacultades from '../public/images/proyecto-facultades.png';
+import proyectoEmpy from '../public/images/proyecto-empy.png';
 import ProjectCard from './ProjectCard';
 
 const HomeProjects = () => {
@@ -12,12 +14,11 @@ const HomeProjects = () => {
 			</div>
 			<ProjectCard
 				layout={0}
-				src={explorandoEmociones}
-				title="Explorando emociones"
-				subtitle="¿Cómo mejorar la salud mental de los adolescentes?"
-				link="/explorando-emociones"
-				roles="Roles: UX Researcher | Interaction Designer | Visual
-                Designer"
+				src={proyectoFacultades}
+				title="Optimizando los sitios web de facultades de una universidad pública"
+				subtitle="¿Cómo incrementar valor en la visibilidad de instituciones educativas?"
+				link="/sitios-web-facultades-universidad"
+				roles="Roles: UX Lead | Product Designer"
 			/>
 			<ProjectCard
 				layout={1}
@@ -25,19 +26,18 @@ const HomeProjects = () => {
 				title="Explorando emociones"
 				subtitle="¿Cómo mejorar la salud mental de los adolescentes?"
 				link="/explorando-emociones"
-				roles="Roles: UX Researcher | Interaction Designer | Visual
-                Designer"
+				roles="Roles: UX Designer | Visual Designer"
 			/>
 			<ProjectCard
 				layout={0}
-				src={explorandoEmociones}
-				title="Explorando emociones"
-				subtitle="¿Cómo mejorar la salud mental de los adolescentes?"
-				link="/explorando-emociones"
-				roles="Roles: UX Researcher | Interaction Designer | Visual
+				src={proyectoEmpy}
+				title="Empy"
+				subtitle="¿Cómo brindar herramientas a consultantes y terapeutas psicológicos?"
+				link="/empy"
+				roles="Roles: Interaction Designer | Visual
                 Designer"
 			/>
-			<ProjectCard
+			{/* <ProjectCard
 				layout={1}
 				src={explorandoEmociones}
 				title="Explorando emociones"
@@ -45,7 +45,7 @@ const HomeProjects = () => {
 				link="/explorando-emociones"
 				roles="Roles: UX Researcher | Interaction Designer | Visual
                 Designer"
-			/>
+			/> */}
 		</>
 	);
 };

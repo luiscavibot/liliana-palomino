@@ -9,6 +9,7 @@ module.exports = {
 			colors: {
 				morado: '#5855FF',
 				oscuro: '#34304A',
+				fondoClaro: '#C1DBF3',
 			},
 			fontFamily: {
 				sofiaPro: 'Sofia Pro',
