@@ -11,7 +11,7 @@ const Home: NextPage = () => {
 			className="text-oscuro font-sofiaPro"
 			style={{ letterSpacing: '0.5px', lineHeight: '1.8' }}>
 			<Head>
-				<title>Pamela Palomino</title>
+				<title>Liliana Palomino</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
