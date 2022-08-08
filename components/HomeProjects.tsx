@@ -9,7 +9,7 @@ const HomeProjects = () => {
 		<>
 			<div className="col-span-12 justify-center items-center">
 				<h1 className="text-center w-1/2 mx-auto mt-12 uppercase font-extrabold text-xl">
-					Projects
+					Proyectos
 				</h1>
 			</div>
 			<ProjectCard
