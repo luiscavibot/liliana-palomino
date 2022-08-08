@@ -22,9 +22,9 @@ const Home: NextPage = () => {
 							<span className="font-bold">
 								UX/UI Designer - Product Designer
 							</span>
-							, disfruto de cada etapa de la creación de productos
-							digitales y aprender, día a día, junto al equipo que
-							me acompaña.
+							, disfruto seguir cada etapa de la creación de
+							productos digitales y aprender, día a día, junto al
+							equipo que me acompaña.
 						</p>
 					</div>
 					<HomeProjects />
