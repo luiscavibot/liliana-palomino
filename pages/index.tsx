@@ -19,9 +19,12 @@ const Home: NextPage = () => {
 					<div className="col-span-12 justify-center items-center mt-20">
 						<p className="text-center w-full md:w-1/2 mx-auto">
 							¡Hola! Soy{' '}
-							<span className="font-bold">Product Designer</span>,
-							disfruto de cada etapa de la creación de productos
-							digitales y aprender del equipo que me acompaña.
+							<span className="font-bold">
+								UX/UI Designer - Product Designer
+							</span>
+							, disfruto de cada etapa de la creación de productos
+							digitales y aprender, día a día, junto al equipo que
+							me acompaña.
 						</p>
 					</div>
 					<HomeProjects />
