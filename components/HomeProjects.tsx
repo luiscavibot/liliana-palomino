@@ -101,7 +101,7 @@ const HomeProjects = () => {
                   </span>
                 ))}
               </div>
-              <Link href={project.link}>
+              <Link legacyBehavior href={project.link}>
                 <a className="mt-9 inline-flex w-fit items-center gap-2 rounded-full bg-morado px-5 py-3 text-sm font-black text-white transition-transform hover:-translate-y-0.5">
                   Ver caso de estudio <span aria-hidden="true">→</span>
                 </a>
@@ -116,7 +116,7 @@ const HomeProjects = () => {
         <h2 className="text-3xl font-black tracking-[-0.03em]">Otros proyectos</h2>
         <div className="mt-9 grid gap-6 md:grid-cols-3">
           {archiveProjects.map((project) => (
-            <Link href={project.link} key={project.link}>
+            <Link legacyBehavior href={project.link} key={project.link}>
               <a className="group overflow-hidden rounded-2xl border border-oscuro/10 bg-white transition-transform hover:-translate-y-1">
                 <div className="aspect-[4/3] overflow-hidden bg-fondoClaro">
                   <img

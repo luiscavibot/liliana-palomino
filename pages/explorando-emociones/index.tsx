@@ -1,4 +1,4 @@
-import Image from 'next/future/image';
+import Image from 'next/image';
 import Head from 'next/head';
 import React from 'react';
 import Menu from '../../components/Menu';
@@ -23,7 +23,7 @@ const index = () => {
 					<div className="grid grid-cols-12 gap-x-6">
 						<Menu />
 						<ul className="px-0 md:px-11 mt-16 gap-2 col-span-full flex">
-							<Link href="/">
+							<Link legacyBehavior href="/">
 								<a>
 									<li className="text-morado">Inicio</li>
 								</a>
@@ -53,7 +53,7 @@ const index = () => {
 						</div>
 					</div>
 				</div>
-				<Image
+				<Image alt=""
 					src={bannerExplorandoEmociones}
 					className="w-full mt-14"
 					quality={100}
@@ -165,11 +165,11 @@ const index = () => {
 					<div className="grid grid-cols-12 gap-x-6">
 						<div className="col-start-1 md:col-start-2 col-span-12 md:col-span-10 mt-20 flex flex-col px-0 md:px-40">
 							<div className="flex justify-center items-center flex-col">
-								<Image
+								<Image alt=""
 									src={solucion1}
 									className="mt-5 md:mt-20"
 								/>
-								<Image
+								<Image alt=""
 									src={solucion2}
 									className="mt-5 md:mt-20"
 								/>

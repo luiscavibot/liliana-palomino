@@ -46,7 +46,7 @@ const CaseStudyLayout: FC<Props> = ({
       <main>
         <section className="case-shell case-hero">
           <div>
-            <Link href="/#proyectos">
+            <Link legacyBehavior href="/#proyectos">
               <a className="case-back"><span aria-hidden="true">←</span> Proyectos</a>
             </Link>
             <p className="case-kicker">{brand} · {period}</p>
@@ -77,11 +77,11 @@ const CaseStudyLayout: FC<Props> = ({
         <nav className="case-shell case-next" aria-label="Siguiente caso">
           <div>
             <span>Siguiente caso</span>
-            <Link href={nextHref}>
+            <Link legacyBehavior href={nextHref}>
               <a>{nextTitle} →</a>
             </Link>
           </div>
-          <Link href="/#proyectos">
+          <Link legacyBehavior href="/#proyectos">
             <a className="text-sm font-black text-oscuro/55">Ver todos</a>
           </Link>
         </nav>

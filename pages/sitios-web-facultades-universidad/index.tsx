@@ -1,4 +1,4 @@
-import Image from 'next/future/image';
+import Image from 'next/image';
 import Head from 'next/head';
 import React from 'react';
 import HomeProjects from '../../components/HomeProjects';
@@ -34,7 +34,7 @@ const index = () => {
 					<div className="grid grid-cols-12 gap-x-6">
 						<Menu />
 						<ul className="px-0 md:px-11 mt-16 gap-2 col-span-full md:flex hidden">
-							<Link href="/">
+							<Link legacyBehavior href="/">
 								<a>
 									<li className="text-morado">Inicio</li>
 								</a>
@@ -57,7 +57,7 @@ const index = () => {
 						</div>
 					</div>
 				</div>
-				<Image
+				<Image alt=""
 					src={portadaFacultades}
 					className="w-full mt-14"
 					quality={100}
@@ -174,14 +174,14 @@ const index = () => {
 									referente externo de la información que
 									necesita ser visibilizada.
 								</p>
-								<Image
+								<Image alt=""
 									src={mapeoActoresFacultades}
 									quality={100}
 									className="md:block hidden"
 								/>
 							</div>
 							<div className="md:hidden mt-5 flex justify-center">
-								<Image
+								<Image alt=""
 									src={mapeoActoresFacultades}
 									quality={100}
 								/>
@@ -220,38 +220,38 @@ const index = () => {
 						<div className="col-start-2 col-span-10">
 							<div className="grid grid-cols-3 gap-3 grid-flow-row-dense mt-12 place-items-center">
 								<div className="col-span-9 md:col-span-1 w-full">
-									<Image
+									<Image alt=""
 										src={resultadoUno}
 										className="w-full"
 										quality={100}
 									/>
 								</div>
 								<div className="col-span-9 md:col-span-1 w-full">
-									<Image
+									<Image alt=""
 										src={resultadoDos}
 										className="w-full"
 									/>
 								</div>
 								<div className="col-span-9 md:col-span-1 w-full">
-									<Image
+									<Image alt=""
 										src={resultadoTres}
 										className="w-full"
 									/>
 								</div>
 								<div className="col-span-9 md:col-span-1 w-full">
-									<Image
+									<Image alt=""
 										src={resultadoCuatro}
 										className="w-full"
 									/>
 								</div>
 								<div className="col-span-9 md:col-span-1 w-full">
-									<Image
+									<Image alt=""
 										src={resultadoCinco}
 										className="w-full"
 									/>
 								</div>
 								<div className="col-span-9 md:col-span-1 w-full">
-									<Image
+									<Image alt=""
 										src={resultadoSeis}
 										className="w-full"
 									/>
@@ -291,13 +291,13 @@ const index = () => {
 					</div>
 					<div className="grid grid-cols-12 grid-rows-1 mt-14 gap-x-6">
 						<div className="col-start-1 md:col-start-3 col-span-12 md:col-span-4 ">
-							<Image
+							<Image alt=""
 								src={ideacionFacultadesUno}
 								className="w-full object-cover object-center"
 							/>
 						</div>
 						<div className="col-span-12 mt-2 md:mt-0 md:col-span-4">
-							<Image
+							<Image alt=""
 								src={ideacionFacultadesDos}
 								className="w-full object-cover object-center"
 							/>
@@ -306,7 +306,7 @@ const index = () => {
 							Arquitectura del sitio
 						</h1>
 						<div className="font-bold mb-11 col-start-1 md:col-start-3 col-span-12 md:col-span-8 mt-10">
-							<Image src={arquitecturaSitioFacultades} />
+							<Image alt="" src={arquitecturaSitioFacultades} />
 						</div>
 					</div>
 					<div className="grid grid-cols-12 gap-x-6">
@@ -336,9 +336,9 @@ const index = () => {
 								nuestro producto mínimo viable.
 							</p>
 							<div className="flex justify-center items-center flex-col">
-								<Image src={solucionUno} className="mt-20" />
-								<Image src={solucionDos} className="mt-12" />
-								<Image src={solucionTres} className="mt-12" />
+								<Image alt="" src={solucionUno} className="mt-20" />
+								<Image alt="" src={solucionDos} className="mt-12" />
+								<Image alt="" src={solucionTres} className="mt-12" />
 							</div>
 						</div>
 					</div>

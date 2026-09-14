@@ -4,7 +4,7 @@ import React from 'react';
 const Menu = () => {
   return (
     <nav className="col-span-12 flex items-center justify-between py-7 md:py-9" aria-label="Navegación principal">
-      <Link href="/">
+      <Link legacyBehavior href="/">
         <a className="text-morado text-lg font-black leading-[1.05] tracking-[-0.02em]">
           Liliana
           <br />
@@ -13,10 +13,10 @@ const Menu = () => {
       </Link>
 
       <div className="flex items-center gap-5 text-sm font-bold md:gap-10">
-        <Link href="/#proyectos">
+        <Link legacyBehavior href="/#proyectos">
           <a className="transition-colors hover:text-morado">Proyectos</a>
         </Link>
-        <Link href="/sobre-mi">
+        <Link legacyBehavior href="/sobre-mi">
           <a className="transition-colors hover:text-morado">Sobre mí</a>
         </Link>
         <a

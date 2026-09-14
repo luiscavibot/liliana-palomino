@@ -1,4 +1,4 @@
-import Image from 'next/future/image';
+import Image from 'next/image';
 import Head from 'next/head';
 import React from 'react';
 import Menu from '../../components/Menu';
@@ -26,7 +26,7 @@ const index = () => {
 					<div className="grid grid-cols-12 gap-x-6">
 						<Menu />
 						<ul className="px-0 md:px-11 mt-16 gap-2 col-span-full flex">
-							<Link href="/">
+							<Link legacyBehavior href="/">
 								<a>
 									<li className="text-morado">Inicio</li>
 								</a>
@@ -43,7 +43,7 @@ const index = () => {
 						</div>
 					</div>
 				</div>
-				<Image
+				<Image alt=""
 					src={bannerEmpy}
 					className="w-full mt-14"
 					quality={100}
@@ -157,7 +157,7 @@ const index = () => {
 								</span>
 							</p>
 							<div className="flex justify-center mt-7">
-								<Image src={researchUnoEmpy} />
+								<Image alt="" src={researchUnoEmpy} />
 							</div>
 							<p className="text-sm text-center">Affinity mapp</p>
 
@@ -172,7 +172,7 @@ const index = () => {
 								psicológica.
 							</p>
 							<div className="flex justify-center mt-6">
-								<Image src={researchDosEmpy} />
+								<Image alt="" src={researchDosEmpy} />
 							</div>
 							<p className="text-sm text-center">
 								Análisis de competencia
@@ -218,10 +218,10 @@ const index = () => {
 								</span>
 							</p>
 							<div className="flex justify-center items-center flex-col">
-								<Image src={solucion1} className="mt-20" />
-								<Image src={solucion2} className="mt-12" />
-								<Image src={solucion3} className="mt-12" />
-								<Image src={solucion4} className="mt-12" />
+								<Image alt="" src={solucion1} className="mt-20" />
+								<Image alt="" src={solucion2} className="mt-12" />
+								<Image alt="" src={solucion3} className="mt-12" />
+								<Image alt="" src={solucion4} className="mt-12" />
 							</div>
 						</div>
 					</div>

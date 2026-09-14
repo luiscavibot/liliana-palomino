@@ -36,7 +36,7 @@ const Home: NextPage = () => {
               Combino pensamiento de producto, diseño de interacción y escritura para crear servicios digitales claros, humanos y listos para avanzar.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <Link href="/#proyectos">
+              <Link legacyBehavior href="/#proyectos">
                 <a className="rounded-full bg-morado px-6 py-3.5 text-sm font-black text-white transition-transform hover:-translate-y-0.5">
                   Ver proyectos
                 </a>
