@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <title>Liliana Palomino · Product Designer</title>
         <meta
           name="description"
-          content="Portafolio de Liliana Palomino, Product Designer especializada en interacción, contenido y experiencias digitales."
+          content="Portafolio de Liliana Palomino, Product Designer. Casos de Yanbal, BCP, Sip y otros proyectos."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -29,11 +29,11 @@ const Home: NextPage = () => {
               Product Designer · UX/UI
             </p>
             <h1 className="max-w-5xl text-[clamp(3rem,8vw,7rem)] font-black leading-[0.94] tracking-[-0.065em]">
-              Diseño experiencias que vuelven lo complejo{' '}
-              <span className="text-morado">fácil de entender.</span>
+              Disfruto resolver cómo funciona una experiencia y{' '}
+              <span className="text-morado">encontrar las palabras para explicarla.</span>
             </h1>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-oscuro/65 md:text-xl md:leading-9">
-              Combino pensamiento de producto, diseño de interacción y escritura para crear servicios digitales claros, humanos y listos para avanzar.
+              Soy Liliana. He trabajado en banca, venta directa, educación y otros servicios digitales. Me involucro tanto en los flujos y escenarios como en la interfaz y los textos que acompañan a las personas.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Link legacyBehavior href="/#proyectos">
@@ -45,18 +45,18 @@ const Home: NextPage = () => {
                 href="mailto:lilyevantter@gmail.com"
                 className="rounded-full border border-oscuro/20 px-6 py-3.5 text-sm font-black transition-colors hover:border-morado hover:text-morado"
               >
-                Conversemos
+                Escríbeme
               </a>
             </div>
           </div>
 
           <div className="hidden md:col-span-3 md:block">
             <div className="rounded-[28px] border border-oscuro/10 bg-white p-7 shadow-[0_20px_60px_rgba(38,35,53,0.05)]">
-              <p className="text-xs font-black uppercase tracking-[0.16em] text-morado">Mi enfoque</p>
+              <p className="text-xs font-black uppercase tracking-[0.16em] text-morado">Lo que más disfruto</p>
               <ul className="mt-5 space-y-4 text-sm font-bold leading-6 text-oscuro/70">
-                <li>Interacción que orienta</li>
-                <li>Contenido que despeja dudas</li>
-                <li>Sistemas que contemplan excepciones</li>
+                <li>Diseño de interacción</li>
+                <li>Flujos con varios roles</li>
+                <li>Contenido y UX writing</li>
               </ul>
             </div>
           </div>
@@ -66,9 +66,9 @@ const Home: NextPage = () => {
 
         <section className="case-shell pb-24 md:pb-32">
           <div className="rounded-[30px] bg-oscuro px-7 py-14 text-white md:px-16 md:py-20">
-            <p className="text-xs font-black uppercase tracking-[0.18em] text-white/55">Hablemos</p>
+            <p className="text-xs font-black uppercase tracking-[0.18em] text-white/55">Contacto</p>
             <h2 className="mt-4 max-w-3xl text-3xl font-black leading-tight tracking-[-0.04em] md:text-5xl">
-              ¿Tienes un problema complejo que necesita una experiencia más clara?
+              Si quieres saber más sobre mi trabajo, conversemos.
             </h2>
             <a
               href="mailto:lilyevantter@gmail.com"
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
       <footer className="site-footer">
         <div className="case-shell flex flex-col justify-between gap-3 text-sm text-oscuro/55 sm:flex-row">
           <span>© {new Date().getFullYear()} Liliana Palomino</span>
-          <span>Diseño de producto · Interacción · UX writing</span>
+          <span>Product Designer · UX/UI</span>
         </div>
       </footer>
     </div>

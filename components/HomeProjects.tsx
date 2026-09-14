@@ -16,7 +16,7 @@ const featuredProjects: FeaturedProject[] = [
   {
     company: 'Yanbal',
     title: 'Incorporación digital de nuevas consultoras',
-    summary: 'Una experiencia coordinada entre web y WhatsApp para guiar a dos roles, reducir dudas y mantener el impulso durante todo el proceso.',
+    summary: 'Diseñé el flujo web y los mensajes de WhatsApp para acompañar a la incorporadora y al prospecto durante un mismo proceso.',
     role: 'UX/UI Designer',
     link: '/yanbal',
     visual: 'yanbal',
@@ -24,8 +24,8 @@ const featuredProjects: FeaturedProject[] = [
   },
   {
     company: 'BCP',
-    title: 'Gestión digital de una tarjeta de débito',
-    summary: 'Flujos claros para convertir reglas bancarias complejas en decisiones comprensibles, seguras y coherentes dentro de la app.',
+    title: 'Gestión de una tarjeta de débito desde la app',
+    summary: 'Trabajé los flujos, estados y textos necesarios para que gestionar una tarjeta fuera más sencillo, incluso cuando había varias reglas detrás.',
     role: 'Product Designer',
     link: '/bcp',
     visual: 'bcp',
@@ -33,8 +33,8 @@ const featuredProjects: FeaturedProject[] = [
   },
   {
     company: 'Sip',
-    title: 'Tarjetas adicionales sin perder el control',
-    summary: 'Una solución de dos actores que equilibra autonomía, visibilidad y control cuando una línea de crédito se comparte.',
+    title: 'Tarjetas adicionales para quien la pide y quien la usa',
+    summary: 'Diseñé la solicitud del titular y la experiencia de la persona adicional, desde la invitación hasta la consulta de sus movimientos.',
     role: 'Product Designer',
     link: '/sip-tarjetas-adicionales',
     visual: 'sip',
@@ -68,13 +68,13 @@ const HomeProjects = () => {
     <section id="proyectos" className="case-shell scroll-mt-4 pb-24 md:pb-32">
       <div className="mb-12 flex flex-col justify-between gap-4 border-t border-oscuro/10 pt-10 md:flex-row md:items-end">
         <div>
-          <p className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-morado">Trabajo seleccionado</p>
+          <p className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-morado">Proyectos seleccionados</p>
           <h2 className="max-w-2xl text-3xl font-black leading-tight tracking-[-0.035em] md:text-5xl">
             Casos recientes
           </h2>
         </div>
         <p className="max-w-md text-sm leading-7 text-oscuro/65">
-          Proyectos donde estrategia, interacción y contenido trabajan juntos para hacer que el siguiente paso se sienta evidente.
+          Tres proyectos en los que tuve que ordenar varios roles, reglas de negocio y escenarios antes de llegar a la interfaz.
         </p>
       </div>
 
@@ -103,7 +103,7 @@ const HomeProjects = () => {
               </div>
               <Link legacyBehavior href={project.link}>
                 <a className="mt-9 inline-flex w-fit items-center gap-2 rounded-full bg-morado px-5 py-3 text-sm font-black text-white transition-transform hover:-translate-y-0.5">
-                  Ver caso de estudio <span aria-hidden="true">→</span>
+                  Ver proyecto <span aria-hidden="true">→</span>
                 </a>
               </Link>
             </div>

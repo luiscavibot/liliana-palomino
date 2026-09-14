@@ -5,10 +5,10 @@ const BcpCase: NextPage = () => {
   return (
     <CaseStudyLayout
       brand="BCP"
-      title="Hacer comprensible la gestión de una tarjeta de débito"
-      summary="Transformé reglas, estados y decisiones sensibles en flujos claros para que las personas pudieran gestionar su tarjeta desde la app con mayor seguridad y confianza."
+      title="Gestionar una tarjeta de débito desde la app"
+      summary="Trabajé mejoras en los flujos de consulta y configuración de tarjetas. Mi foco estuvo en ordenar las reglas del producto y explicar cada acción sin recargar las pantallas."
       role="Product Designer"
-      scope="Discovery, arquitectura de flujo, interacción, UI, contenido y handoff"
+      scope="Discovery, flujos, interacción, interfaz, contenido y handoff"
       period="2022–2025"
       visual="bcp"
       nextHref="/sip-tarjetas-adicionales"
@@ -16,86 +16,86 @@ const BcpCase: NextPage = () => {
     >
       <section className="case-section">
         <p className="section-kicker">Contexto</p>
-        <h2>En banca, una acción simple puede esconder muchas reglas</h2>
+        <h2>La misma acción podía cambiar según el estado de la tarjeta</h2>
         <p>
-          Consultar o configurar una tarjeta parece sencillo desde la interfaz, pero detrás existen validaciones, permisos, estados y consecuencias que el cliente no debería tener que descifrar. El reto fue sostener esa complejidad sin trasladarla a la experiencia.
+          Gestionar una tarjeta desde la app no siempre sigue un único camino. Algunas opciones dependen del estado de la tarjeta y otras necesitan validaciones o confirmaciones antes de ejecutarse. Mi trabajo fue traducir esas reglas a una experiencia que el cliente pudiera seguir sin conocer cómo funciona el sistema por dentro.
         </p>
         <div className="case-question">
-          ¿Cómo damos control sobre una tarjeta sin saturar de información y sin perder la claridad que una decisión financiera exige?
+          El reto no era agregar más información, sino mostrar la correcta justo cuando hacía falta.
         </div>
       </section>
 
       <section className="case-section">
-        <p className="section-kicker">Mi aporte</p>
-        <h2>Traducir el sistema a decisiones humanas</h2>
+        <p className="section-kicker">Mi trabajo</p>
+        <h2>Pasé de las reglas del producto a flujos concretos</h2>
         <div className="case-grid">
           <article className="case-card">
             <span className="case-card__number">01</span>
-            <h3>Ordenar reglas y dependencias</h3>
-            <p>Convertí requerimientos dispersos en un mapa de acciones, precondiciones, respuestas y escenarios alternos.</p>
+            <h3>Levanté reglas y escenarios</h3>
+            <p>Organicé qué acciones estaban disponibles, qué condiciones debían cumplirse y qué respuesta daba el sistema en cada caso.</p>
           </article>
           <article className="case-card">
             <span className="case-card__number">02</span>
-            <h3>Diseñar los estados completos</h3>
-            <p>Además del camino ideal, contemplé bloqueos, validaciones, carga, errores y confirmaciones para evitar vacíos de experiencia.</p>
+            <h3>Diseñé el recorrido completo</h3>
+            <p>Además del camino principal, trabajé validaciones, tiempos de espera, bloqueos, errores y confirmaciones.</p>
           </article>
           <article className="case-card">
             <span className="case-card__number">03</span>
-            <h3>Alinear experiencia y viabilidad</h3>
-            <p>Trabajé con producto, negocio y desarrollo para ajustar la solución sin perder el propósito para el cliente.</p>
+            <h3>Ajusté la propuesta con el equipo</h3>
+            <p>Revisé cada flujo con producto, negocio y desarrollo para resolver restricciones sin perder de vista lo que necesitaba el cliente.</p>
           </article>
         </div>
       </section>
 
       <section className="case-section">
-        <p className="section-kicker">Principios de diseño</p>
-        <h2>La confianza se construye antes de confirmar</h2>
+        <p className="section-kicker">Decisiones de diseño</p>
+        <h2>Cuatro criterios que usé en los flujos</h2>
         <div className="decision-list">
           <div className="decision-item">
             <strong>01</strong>
             <div>
-              <h3>Mostrar primero lo que cambia</h3>
-              <p>La interfaz explica el estado actual y la consecuencia de la acción antes de pedir una confirmación.</p>
+              <h3>Nombrar la acción sin ambigüedad</h3>
+              <p>Botones y títulos debían decir exactamente qué se iba a consultar, activar, desactivar o confirmar.</p>
             </div>
           </div>
           <div className="decision-item">
             <strong>02</strong>
             <div>
-              <h3>Usar lenguaje cotidiano con precisión</h3>
-              <p>Los textos reducen tecnicismos sin ocultar información importante para una decisión segura.</p>
+              <h3>Anticipar las consecuencias</h3>
+              <p>Antes de confirmar, la persona debía saber qué cambiaría en su tarjeta y cómo podía revertirlo cuando fuera posible.</p>
             </div>
           </div>
           <div className="decision-item">
             <strong>03</strong>
             <div>
-              <h3>Mantener patrones reconocibles</h3>
-              <p>Las nuevas interacciones se apoyan en comportamientos del ecosistema del banco para reducir aprendizaje y errores.</p>
+              <h3>Usar patrones conocidos</h3>
+              <p>Mantuve componentes y comportamientos ya presentes en la app para que las nuevas opciones no se sintieran ajenas.</p>
             </div>
           </div>
           <div className="decision-item">
             <strong>04</strong>
             <div>
-              <h3>Tratar los errores como parte del producto</h3>
-              <p>Cada escenario alterno indica qué ocurrió, qué puede hacer la persona y cuándo necesita otro canal de ayuda.</p>
+              <h3>Dar una salida cuando algo fallaba</h3>
+              <p>Los mensajes de error indicaban qué había ocurrido y qué podía hacer la persona, en lugar de dejarla en un punto muerto.</p>
             </div>
           </div>
         </div>
       </section>
 
       <section className="case-section">
-        <p className="section-kicker">Diseño de interacción + contenido</p>
-        <h2>Una pantalla no termina cuando se ve bien</h2>
+        <p className="section-kicker">Interacción y contenido</p>
+        <h2>Trabajé el flujo y los textos al mismo tiempo</h2>
         <p>
-          Mi trabajo combinó estructura, jerarquía y escritura. El objetivo no era solo reducir pasos, sino asegurar que cada paso tuviera sentido: qué está gestionando la persona, por qué se solicita una validación y cómo sabe que la operación terminó correctamente.
+          En estas operaciones, cambiar una palabra podía modificar la manera en que se entendía una acción. Por eso revisé títulos, instrucciones, botones y confirmaciones junto con el comportamiento de cada pantalla, no como una capa añadida al final.
         </p>
         <div className="case-grid case-grid--two">
           <article className="case-card">
-            <h3>Antes de la acción</h3>
-            <p>Contexto suficiente, condiciones visibles y una etiqueta que describe exactamente qué ocurrirá.</p>
+            <h3>Antes de confirmar</h3>
+            <p>La persona debía reconocer qué tarjeta estaba gestionando, qué iba a cambiar y si existía alguna condición importante.</p>
           </article>
           <article className="case-card">
-            <h3>Después de la acción</h3>
-            <p>Confirmación específica, estado actualizado y un siguiente paso útil, sin mensajes genéricos ni callejones sin salida.</p>
+            <h3>Después de confirmar</h3>
+            <p>El mensaje debía mencionar la acción realizada, mostrar el nuevo estado y ofrecer un siguiente paso cuando correspondía.</p>
           </article>
         </div>
       </section>
@@ -103,13 +103,13 @@ const BcpCase: NextPage = () => {
       <section className="case-section">
         <div className="case-result">
           <p className="section-kicker text-white/60">Resultado</p>
-          <h2>Una propuesta consistente, explicable y preparada para construirse</h2>
+          <h2>Flujos y casos alternos listos para desarrollo</h2>
           <p>
-            Los flujos permitieron al equipo razonar sobre la experiencia completa, alinear decisiones entre disciplinas y llevar reglas complejas a una interfaz más clara. La documentación incluyó comportamiento, contenido y excepciones para facilitar el handoff.
+            Dejé documentados los recorridos, estados, textos y comportamientos necesarios para construir la propuesta. Esto permitió revisar escenarios concretos con el equipo y no quedarnos únicamente con la pantalla principal.
           </p>
         </div>
         <p className="case-note">
-          Por confidencialidad, el caso se presenta sin cifras, datos de clientes ni pantallas internas del banco. Los visuales son una representación conceptual.
+          Por confidencialidad, este caso no incluye cifras, datos de clientes ni pantallas internas del banco. Los visuales son referenciales.
         </p>
       </section>
     </CaseStudyLayout>

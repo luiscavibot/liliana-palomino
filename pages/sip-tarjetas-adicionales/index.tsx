@@ -5,10 +5,10 @@ const SipCase: NextPage = () => {
   return (
     <CaseStudyLayout
       brand="Sip"
-      title="Tarjetas adicionales sin perder el control"
-      summary="Diseñé la experiencia del titular y del adicional para compartir una línea de crédito con reglas claras, autonomía suficiente y control visible."
+      title="Tarjetas adicionales para quien la pide y quien la usa"
+      summary="Diseñé cómo el titular solicita y administra una tarjeta adicional, y cómo la persona invitada la recibe, la encuentra en su app y consulta sus movimientos."
       role="Product Designer"
-      scope="Journey de dos actores, interacción, UX writing y alineamiento negocio–tecnología"
+      scope="Flujos de titular y adicional, interacción, UX writing y alineamiento con negocio y tecnología"
       period="2026"
       visual="sip"
       nextHref="/yanbal"
@@ -16,18 +16,18 @@ const SipCase: NextPage = () => {
     >
       <section className="case-section">
         <p className="section-kicker">Contexto</p>
-        <h2>Una sola línea de crédito, dos experiencias diferentes</h2>
+        <h2>El titular la solicita, pero otra persona la recibe y la usa</h2>
         <p>
-          Una tarjeta adicional permite extender el uso del crédito a otra persona, pero no crea una relación simétrica. El titular conserva la responsabilidad y el control; el adicional necesita autonomía para usar su tarjeta y entender sus movimientos. Si esa diferencia no se explica bien, aparecen dudas sobre permisos, consumos y dinero disponible.
+          El titular sigue siendo responsable de la línea de crédito y necesita saber qué ocurre con todas sus tarjetas. La persona adicional, en cambio, necesita reconocer su tarjeta, consultar sus propios movimientos y entender qué puede gestionar desde su app. El producto debía responder a ambos sin confundir sus responsabilidades.
         </p>
         <div className="case-question">
-          ¿Cómo damos autonomía al adicional sin que el titular pierda visibilidad ni control sobre una línea compartida?
+          Tenía que conectar dos recorridos distintos y explicar con cuidado qué se comparte y qué controla cada persona.
         </div>
       </section>
 
       <section className="case-section">
-        <p className="section-kicker">Journey conectado</p>
-        <h2>Diseñé el recorrido de ambos lados</h2>
+        <p className="section-kicker">Los dos recorridos</p>
+        <h2>Diseñé la experiencia desde ambos lados</h2>
         <div className="journey" aria-label="Recorridos conectados de titular y adicional">
           <div className="journey-row">
             <strong>Titular</strong>
@@ -39,7 +39,7 @@ const SipCase: NextPage = () => {
           <div className="journey-row">
             <strong>Adicional</strong>
             <div className="journey-step">Recibe</div>
-            <div className="journey-step">Se incorpora</div>
+            <div className="journey-step">Ingresa</div>
             <div className="journey-step">Activa</div>
             <div className="journey-step">Consulta</div>
           </div>
@@ -47,76 +47,76 @@ const SipCase: NextPage = () => {
         <div className="case-grid case-grid--two">
           <article className="case-card role-card">
             <span className="case-card__number">T</span>
-            <h3>Lo que necesita el titular</h3>
-            <p>Solicitar, entender la línea compartida, reconocer consumos, administrar permisos y resolver bloqueo o cancelación.</p>
+            <h3>Para el titular</h3>
+            <p>Trabajé la solicitud, el ingreso de los datos del adicional, la invitación, los permisos, los movimientos y la cancelación.</p>
           </article>
           <article className="case-card role-card">
             <span className="case-card__number">A</span>
-            <h3>Lo que necesita el adicional</h3>
-            <p>Aceptar la invitación, completar su primer ingreso, reconocer su tarjeta, consultar movimientos y saber qué puede gestionar.</p>
+            <h3>Para la persona adicional</h3>
+            <p>Diseñé la llegada a la app, el primer ingreso, la visualización de su tarjeta y la consulta de los movimientos que le correspondían.</p>
           </article>
         </div>
       </section>
 
       <section className="case-section">
-        <p className="section-kicker">Complejidad clave</p>
-        <h2>Explicar una línea compartida sin inventar un saldo separado</h2>
+        <p className="section-kicker">La decisión más delicada</p>
+        <h2>El adicional no tenía una línea propia</h2>
         <p>
-          El producto no asignaba una línea independiente al adicional. Por eso evité mostrar un “monto disponible” que pudiera interpretarse como dinero reservado exclusivamente para esa tarjeta. La experiencia priorizó movimientos, relación con el titular y una explicación accesible de cómo se comparte la línea.
+          Todas las tarjetas usaban la misma línea de crédito. Mostrar un “monto disponible” dentro de la tarjeta adicional podía hacer pensar que existía un dinero reservado solo para esa persona, cuando no era así. Decidí no mostrarlo y prioricé sus movimientos junto con una explicación sencilla de la línea compartida.
         </p>
         <div className="decision-list">
           <div className="decision-item">
             <strong>01</strong>
             <div>
-              <h3>Invitación con continuidad</h3>
-              <p>El mensaje de WhatsApp explica quién invita, para qué sirve la tarjeta y cuál es la siguiente acción segura.</p>
+              <h3>Explicar cómo se comparte la línea</h3>
+              <p>Incluí una explicación breve durante la solicitud y un espacio de “Más información” para quien necesitara revisar el detalle.</p>
             </div>
           </div>
           <div className="decision-item">
             <strong>02</strong>
             <div>
-              <h3>Información progresiva</h3>
-              <p>Una hoja de “Más información” aclara la relación entre línea y tarjetas sin recargar el momento de solicitud.</p>
+              <h3>Separar las acciones por rol</h3>
+              <p>Definí qué podía ver y configurar el titular, y qué acciones podía realizar la persona adicional sobre su propia tarjeta.</p>
             </div>
           </div>
           <div className="decision-item">
             <strong>03</strong>
             <div>
-              <h3>Permisos por rol</h3>
-              <p>Definí qué acciones corresponden al titular y cuáles puede realizar el adicional, haciendo visibles los límites antes de generar frustración.</p>
+              <h3>Conectar la invitación con el primer ingreso</h3>
+              <p>El WhatsApp explicaba quién enviaba la invitación y qué debía hacer. Al entrar a la app, una bienvenida retomaba ese contexto.</p>
             </div>
           </div>
           <div className="decision-item">
             <strong>04</strong>
             <div>
-              <h3>Primer ingreso con contexto</h3>
-              <p>La bienvenida conecta la invitación recibida con la tarjeta que aparece en la app y orienta la primera tarea.</p>
+              <h3>Diseñar también el cierre</h3>
+              <p>Trabajé el bloqueo, la cancelación y sus motivos para que ambos roles entendieran qué ocurría con la tarjeta.</p>
             </div>
           </div>
         </div>
       </section>
 
       <section className="case-section">
-        <p className="section-kicker">Diseñar con restricciones</p>
-        <h2>Cuando cambió la viabilidad, rediseñé la promesa</h2>
+        <p className="section-kicker">Cambios durante el proyecto</p>
+        <h2>La propuesta tuvo que adaptarse a nuevas restricciones</h2>
         <p>
-          Una restricción técnica hizo que la opción virtual dejara de ser viable. Reorganicé el recorrido alrededor de la tarjeta física para que la experiencia siguiera siendo coherente: ajusté expectativas, confirmaciones, entrega y acceso posterior sin presentar el cambio como una degradación improvisada.
+          Al inicio se contemplaba entregar una tarjeta virtual y ofrecer la física como opción. Cuando vimos que la tarjeta virtual probablemente no sería viable, reorganicé el recorrido para una entrega física directa y ajusté los mensajes para no prometer algo que el producto no podría cumplir.
         </p>
         <div className="case-grid">
           <article className="case-card">
             <span className="case-card__number">01</span>
-            <h3>Repriorizar</h3>
-            <p>Identifiqué qué valor debía conservarse aunque cambiara el soporte de la tarjeta.</p>
+            <h3>Durante la solicitud</h3>
+            <p>Ajusté los textos sobre los datos del adicional, la línea compartida y la forma en que recibiría su tarjeta.</p>
           </article>
           <article className="case-card">
             <span className="case-card__number">02</span>
-            <h3>Reescribir</h3>
-            <p>Ajusté promesas y mensajes para no crear expectativas que el producto no podía cumplir.</p>
+            <h3>Después de recibirla</h3>
+            <p>Conecté el primer ingreso con la aparición de la tarjeta en la app y el acceso a sus movimientos.</p>
           </article>
           <article className="case-card">
             <span className="case-card__number">03</span>
-            <h3>Realinear</h3>
-            <p>Actualicé flujo y documentación para mantener sincronizados negocio, diseño y desarrollo.</p>
+            <h3>Otros escenarios</h3>
+            <p>Integré el aumento de línea y el mensaje para adicionales que también podían acceder a una tarjeta como titulares.</p>
           </article>
         </div>
       </section>
@@ -124,13 +124,13 @@ const SipCase: NextPage = () => {
       <section className="case-section">
         <div className="case-result">
           <p className="section-kicker text-white/60">Resultado</p>
-          <h2>Una experiencia coherente para compartir, usar y controlar</h2>
+          <h2>Un recorrido completo para solicitarla, recibirla y gestionarla</h2>
           <p>
-            La propuesta conectó solicitud, invitación, incorporación y gestión posterior en un sistema entendible para ambos roles. Las decisiones de permisos, contenido y visualización de movimientos quedaron documentadas junto con sus excepciones y restricciones.
+            Dejé documentados los flujos de ambos roles, los textos, permisos y casos alternos. La propuesta cubría desde la solicitud y la invitación hasta el uso posterior, incluyendo los cambios que aparecieron durante el proyecto.
           </p>
         </div>
         <p className="case-note">
-          Este caso muestra la lógica de diseño sin exponer información de clientes, cifras internas ni pantallas de trabajo. Los visuales son conceptuales.
+          Por confidencialidad, este caso no muestra datos de clientes, cifras internas ni pantallas de trabajo. Los visuales son referenciales.
         </p>
       </section>
     </CaseStudyLayout>
