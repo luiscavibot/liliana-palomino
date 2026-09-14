@@ -1,6 +1,5 @@
 import React, { FC } from 'react';
-import Image, { StaticImageData } from 'next/future/image';
-import { title } from 'process';
+import Image, { StaticImageData } from 'next/image';
 import CustomButton from './CustomButton';
 
 interface Props {
@@ -30,7 +29,7 @@ const ProjectCard: FC<Props> = ({
 					<CustomButton link={link} text="Ver caso de estudio" />
 				</div>
 				<div className="col-span-10 md:col-span-5 col-start-2 md:col-start-7 mt-16 w-full md:w-[96%] place-self-end">
-					<Image src={src} quality={100} className="w-full" />
+					<Image alt="" src={src} quality={100} className="w-full" />
 				</div>
 			</>
 		);
@@ -38,7 +37,7 @@ const ProjectCard: FC<Props> = ({
 		return (
 			<>
 				<div className="col-span-10 md:col-start-2 md:col-span-5 col-start-2 mt-16 w-full md:w-[96%] hidden md:block">
-					<Image src={src} quality={100} className="w-full" />
+					<Image alt="" src={src} quality={100} className="w-full" />
 				</div>
 				<div className="col-span-10 md:col-span-5 col-start-2 md:col-start-7 mt-16 flex flex-col w-full md:w-[96%] items-start justify-center justify-self-end">
 					<h1 className="font-bold text-morado">{title}</h1>
@@ -47,7 +46,7 @@ const ProjectCard: FC<Props> = ({
 					<CustomButton link={link} text="Ver caso de estudio" />
 				</div>
 				<div className="col-span-10 md:col-span-5 col-start-2 mt-16 w-full md:w-[96%] block md:hidden">
-					<Image src={src} quality={100} className="w-full" />
+					<Image alt="" src={src} quality={100} className="w-full" />
 				</div>
 			</>
 		);
