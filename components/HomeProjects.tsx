@@ -14,31 +14,31 @@ interface FeaturedProject {
 
 const featuredProjects: FeaturedProject[] = [
   {
-    company: 'Yanbal',
-    title: 'Incorporación digital de nuevas consultoras',
-    summary: 'Diseñé el flujo web y los mensajes de WhatsApp para acompañar a la incorporadora y al prospecto durante un mismo proceso.',
-    role: 'UX/UI Designer',
-    link: '/yanbal',
-    visual: 'yanbal',
-    tags: ['Journey', 'Interacción', 'UX writing'],
-  },
-  {
     company: 'BCP',
-    title: 'Gestión de una tarjeta de débito desde la app',
-    summary: 'Trabajé los flujos, estados y textos necesarios para que gestionar una tarjeta fuera más sencillo, incluso cuando había varias reglas detrás.',
+    title: 'Evolución de la gestión de tarjetas de débito',
+    summary: 'Organicé reglas, estados y excepciones de distintos flujos de tarjeta para llevarlos a una solución consistente con la app y lista para desarrollo.',
     role: 'Product Designer',
     link: '/bcp',
     visual: 'bcp',
-    tags: ['Discovery', 'Prototipado', 'Design system'],
+    tags: ['Producto financiero', 'Flujos y estados', 'Sistema de diseño'],
   },
   {
     company: 'Sip',
-    title: 'Tarjetas adicionales para quien la pide y quien la usa',
-    summary: 'Diseñé la solicitud del titular y la experiencia de la persona adicional, desde la invitación hasta la consulta de sus movimientos.',
+    title: 'Diseño de tarjetas adicionales de punta a punta',
+    summary: 'Definí el recorrido del titular y del adicional, desde la solicitud hasta la gestión posterior, incluyendo permisos y cambios en el alcance técnico.',
     role: 'Product Designer',
     link: '/sip-tarjetas-adicionales',
     visual: 'sip',
-    tags: ['Service design', 'Interacción', 'Contenido'],
+    tags: ['Nuevo producto', 'Service design', 'Reglas y permisos'],
+  },
+  {
+    company: 'Yanbal',
+    title: 'Rediseño del proceso de incorporación',
+    summary: 'Rediseñé un proceso que dependía de dos personas y conectaba distintos momentos entre la web y WhatsApp.',
+    role: 'UX/UI Designer',
+    link: '/yanbal',
+    visual: 'yanbal',
+    tags: ['Journey end-to-end', 'Diseño multicanal', 'Prototipado'],
   },
 ];
 
@@ -74,7 +74,7 @@ const HomeProjects = () => {
           </h2>
         </div>
         <p className="max-w-md text-sm leading-7 text-oscuro/65">
-          Tres proyectos en los que tuve que ordenar varios roles, reglas de negocio y escenarios antes de llegar a la interfaz.
+          Elegí estos casos porque muestran tres formas distintas de abordar un producto: mejorar una experiencia existente, definir una nueva y rediseñar un proceso que cruza varios canales.
         </p>
       </div>
 
