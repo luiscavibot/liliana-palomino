@@ -9,7 +9,7 @@ const About: NextPage = () => {
         <title>Sobre mí · Liliana Palomino</title>
         <meta
           name="description"
-          content="Conoce el enfoque y la experiencia de Liliana Palomino, Product Designer."
+          content="Conoce la experiencia y la forma de trabajar de Liliana Palomino, Product Designer."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -32,17 +32,17 @@ const About: NextPage = () => {
           <div className="md:col-span-7 md:col-start-6">
             <p className="section-kicker">Sobre mí</p>
             <h1 className="text-[clamp(2.8rem,6vw,5.6rem)] font-black leading-[0.98] tracking-[-0.055em]">
-              Diseño para que las personas sepan qué hacer y por qué.
+              Me gusta entender cómo funciona una experiencia hasta el último detalle.
             </h1>
             <div className="mt-9 space-y-6 text-lg leading-9 text-oscuro/68">
               <p>
-                Soy Liliana, Product Designer. He trabajado en productos de banca, venta directa, educación y servicios digitales, acompañando el proceso desde la exploración del problema hasta el detalle de la interfaz.
+                Soy Liliana, Product Designer. He trabajado en banca, venta directa, educación y servicios digitales. En algunos proyectos participé desde la exploración; en otros llegué cuando el reto ya estaba definido y había que llevarlo a un flujo concreto.
               </p>
               <p>
-                Mi fortaleza está en ordenar escenarios complejos, conectar las necesidades de distintos actores y convertir reglas de negocio en flujos y mensajes comprensibles. Disfruto especialmente el diseño de interacción y el UX writing.
+                Lo que más disfruto es el diseño de interacción: ordenar pasos, conectar lo que necesitan distintos roles y pensar qué ocurre fuera del camino ideal. También pongo mucho cuidado en los textos, porque una pantalla puede estar bien resuelta y aun así generar dudas si no explica lo necesario.
               </p>
               <p>
-                Trabajo de manera cercana con producto, negocio y desarrollo. Me interesa que una solución no solo se vea bien: debe poder explicarse, construirse y sostenerse ante los casos que no siguen el camino ideal.
+                Trabajo de cerca con producto, negocio y desarrollo. Suelo hacer muchas preguntas, documentar las decisiones y ajustar la propuesta cuando aparecen restricciones. Me importa que lo diseñado sea útil para la persona y posible para el equipo.
               </p>
             </div>
 
@@ -51,7 +51,7 @@ const About: NextPage = () => {
                 href="mailto:lilyevantter@gmail.com"
                 className="rounded-full bg-morado px-6 py-3.5 text-sm font-black text-white"
               >
-                Contactarme
+                Escríbeme
               </a>
               <a
                 href="https://pe.linkedin.com/in/liliana-pamela-palomino-urdanivia-149711137"
@@ -70,18 +70,18 @@ const About: NextPage = () => {
           <div className="case-grid">
             <article className="case-card">
               <span className="case-card__number">01</span>
-              <h3>Entender antes de dibujar</h3>
-              <p>Mapeo personas, restricciones, información y momentos de decisión antes de elegir una pantalla.</p>
+              <h3>Primero entiendo el problema</h3>
+              <p>Antes de diseñar necesito saber qué intenta hacer la persona, qué información tiene y qué restricciones existen.</p>
             </article>
             <article className="case-card">
               <span className="case-card__number">02</span>
-              <h3>Diseñar el sistema completo</h3>
-              <p>Trabajo el camino principal, pero también los estados, errores y dependencias que sostienen la experiencia.</p>
+              <h3>Recorro todos los escenarios</h3>
+              <p>No me quedo solo con el camino ideal: reviso esperas, errores, bloqueos y formas de volver al flujo.</p>
             </article>
             <article className="case-card">
               <span className="case-card__number">03</span>
-              <h3>Escribir es diseñar</h3>
-              <p>Uso jerarquía y lenguaje claro para que cada interfaz reduzca dudas y haga evidente la siguiente acción.</p>
+              <h3>Reviso cada texto</h3>
+              <p>Trabajo los mensajes junto con la interacción para que la persona sepa qué pasó y qué puede hacer después.</p>
             </article>
           </div>
         </section>
