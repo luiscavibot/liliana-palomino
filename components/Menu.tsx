@@ -2,48 +2,32 @@ import Link from 'next/link';
 import React from 'react';
 
 const Menu = () => {
-	return (
-		<div className="col-span-12 flex flex-col  items-start md:flex-row justify-between md:items-center px-0 md:px-11 mt-7">
-			<Link href="/">
-				<div className="text-morado font-black text-xl cursor-pointer">
-					<p>Liliana</p>
-					<p>Palomino</p>
-				</div>
-			</Link>
-			<ul className="md:flex gap-12 hidden ">
-				<Link href="/">
-					<li>
-						<a className=" cursor-pointer hover:text-morado transition-colors">
-							Inicio
-						</a>
-					</li>
-				</Link>
-				<Link href="/sobre-mi">
-					<li>
-						<a className="cursor-pointer hover:text-morado transition-colors">
-							Sobre mi
-						</a>
-					</li>
-				</Link>
-			</ul>
-			<ul className="list-none md:hidden mt-4 flex justify-end w-full">
-				<Link href="/">
-					<li className="">
-						<a className=" cursor-pointer hover:text-morado transition-colors">
-							Inicio
-						</a>
-					</li>
-				</Link>
-				<Link href="/sobre-mi">
-					<li>
-						<a className="ml-3 cursor-pointer hover:text-morado transition-colors">
-							Sobre mi
-						</a>
-					</li>
-				</Link>
-			</ul>
-		</div>
-	);
+  return (
+    <nav className="col-span-12 flex items-center justify-between py-7 md:py-9" aria-label="Navegación principal">
+      <Link href="/">
+        <a className="text-morado text-lg font-black leading-[1.05] tracking-[-0.02em]">
+          Liliana
+          <br />
+          Palomino
+        </a>
+      </Link>
+
+      <div className="flex items-center gap-5 text-sm font-bold md:gap-10">
+        <Link href="/#proyectos">
+          <a className="transition-colors hover:text-morado">Proyectos</a>
+        </Link>
+        <Link href="/sobre-mi">
+          <a className="transition-colors hover:text-morado">Sobre mí</a>
+        </Link>
+        <a
+          href="mailto:lilyevantter@gmail.com"
+          className="hidden rounded-full border border-oscuro/20 px-4 py-2 transition-colors hover:border-morado hover:text-morado sm:inline-flex"
+        >
+          Contacto
+        </a>
+      </div>
+    </nav>
+  );
 };
 
 export default Menu;
