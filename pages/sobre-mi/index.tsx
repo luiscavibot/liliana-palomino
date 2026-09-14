@@ -32,17 +32,17 @@ const About: NextPage = () => {
           <div className="md:col-span-7 md:col-start-6">
             <p className="section-kicker">Sobre mí</p>
             <h1 className="text-[clamp(2.8rem,6vw,5.6rem)] font-black leading-[0.98] tracking-[-0.055em]">
-              Me gusta entender cómo funciona una experiencia hasta el último detalle.
+              Antes de diseñar una solución, necesito entender el problema completo.
             </h1>
             <div className="mt-9 space-y-6 text-lg leading-9 text-oscuro/68">
               <p>
-                Soy Liliana, Product Designer. He trabajado en banca, venta directa, educación y servicios digitales. En algunos proyectos participé desde la exploración; en otros llegué cuando el reto ya estaba definido y había que llevarlo a un flujo concreto.
+                Soy Liliana, Product Designer. Mi experiencia incluye productos financieros, venta directa, educación y otros servicios digitales. He participado en el análisis del problema, definición de journeys y flujos, prototipado, diseño de interfaz y acompañamiento a desarrollo.
               </p>
               <p>
-                Lo que más disfruto es el diseño de interacción: ordenar pasos, conectar lo que necesitan distintos roles y pensar qué ocurre fuera del camino ideal. También pongo mucho cuidado en los textos, porque una pantalla puede estar bien resuelta y aun así generar dudas si no explica lo necesario.
+                Me siento cómoda en proyectos con varios roles, reglas de negocio y dependencias técnicas. Suelo ordenar esa complejidad, comparar alternativas y hacer visibles las decisiones para que el equipo pueda discutirlas y avanzar.
               </p>
               <p>
-                Trabajo de cerca con producto, negocio y desarrollo. Suelo hacer muchas preguntas, documentar las decisiones y ajustar la propuesta cuando aparecen restricciones. Me importa que lo diseñado sea útil para la persona y posible para el equipo.
+                Trabajo de cerca con producto, negocio y tecnología durante todo el proceso. Comparto los flujos desde etapas tempranas, recojo observaciones y ajusto la propuesta cuando aparecen nuevas condiciones. También cuido el contenido y el detalle visual, pero siempre como parte de la solución completa.
               </p>
             </div>
 
@@ -70,18 +70,18 @@ const About: NextPage = () => {
           <div className="case-grid">
             <article className="case-card">
               <span className="case-card__number">01</span>
-              <h3>Primero entiendo el problema</h3>
-              <p>Antes de diseñar necesito saber qué intenta hacer la persona, qué información tiene y qué restricciones existen.</p>
+              <h3>Entiendo el contexto</h3>
+              <p>Reviso las necesidades de las personas, los objetivos del producto, las reglas del negocio y las restricciones técnicas.</p>
             </article>
             <article className="case-card">
               <span className="case-card__number">02</span>
-              <h3>Recorro todos los escenarios</h3>
-              <p>No me quedo solo con el camino ideal: reviso esperas, errores, bloqueos y formas de volver al flujo.</p>
+              <h3>Hago visibles las decisiones</h3>
+              <p>Uso journeys, flujos y prototipos para comparar alternativas y conversar sobre algo concreto con el equipo.</p>
             </article>
             <article className="case-card">
               <span className="case-card__number">03</span>
-              <h3>Reviso cada texto</h3>
-              <p>Trabajo los mensajes junto con la interacción para que la persona sepa qué pasó y qué puede hacer después.</p>
+              <h3>Acompaño la implementación</h3>
+              <p>Documento estados, comportamientos y casos alternos, y sigo ajustando la solución junto con desarrollo.</p>
             </article>
           </div>
         </section>
